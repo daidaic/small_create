@@ -1,0 +1,11 @@
+element-ui为全局变量
+src/assets/my_css 为全局css 类名w为估计宽度1200px
+路由命名规则
+首页为/home
+热点推荐/recommend
+明星企业为/Star
+行业研究为/research
+咨询培训为/training
+活动列表为/List
+论坛为/Forum
+关于我们为/About

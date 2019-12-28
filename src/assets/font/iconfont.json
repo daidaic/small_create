@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "690719",
+      "name": "注册登录-用户名",
+      "font_class": "zhucedengluyonghuming",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "7090090",
+      "name": "注册",
+      "font_class": "zhuce",
+      "unicode": "e71c",
+      "unicode_decimal": 59164
+    }
+  ]
+}

@@ -1,7 +1,10 @@
 <template>
-  <div class="w">
-    123
+  <div>
+   <tou></tou>
+   <router-view></router-view>
+   <jio></jio>
   </div>
+  
 </template>
 
 <script>
@@ -22,4 +25,3 @@ export default {
 
 <style lang="less" scoped>
 </style>
-
