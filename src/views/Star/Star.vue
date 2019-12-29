@@ -1,6 +1,7 @@
 <template>
   <div>
       star
+      <friend></friend>
   </div>
 </template>
 

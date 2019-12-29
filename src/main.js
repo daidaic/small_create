@@ -11,6 +11,8 @@ import Font from './assets/font/iconfont.css'
 // 引入头
 import Header from './components/header/header.vue'
 import Footer from './components/footer/footer.vue'
+// 友情链接
+import Firend from './components/Friend.vue'
 
 Vue.config.productionTip = false;
 
@@ -19,6 +21,8 @@ Vue.use(ElementUI);
 Vue.component('tou',Header)
 // 底部组件引入
 Vue.component('jio',Footer)
+// 友情链接的引入
+Vue.component('friend',Firend)
 new Vue({
   router,
   render: h => h(App)
