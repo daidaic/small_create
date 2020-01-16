@@ -9,3 +9,4 @@ src/assets/my_css 为全局css 类名w为估计宽度1200px
 活动列表为/List
 论坛为/Forum
 关于我们为/About
+详情页 /details

@@ -16,6 +16,9 @@ import Research from "../views/research/research.vue";
 import Recommend from "../views/recommend/recommend.vue";
 // 明星推荐
 import Star from "../views/Star/Star.vue";
+import Details from '../views/details/details.vue';
+import Home1 from '../components/home1.vue'
+import Login from '../views/Login/Login.vue'
 
 Vue.use(VueRouter);
 
@@ -26,6 +29,8 @@ const routes = [
     path: "/Home",
     component: Home,
     children: [
+      { path: "/", redirect: "/Home1" },
+      { path:'/Home1', component: Home1 },
       { path: "/About", component: About },
       { path: "/training", component: Training },
       { path: "/Forum", component: Forum },
@@ -34,7 +39,9 @@ const routes = [
       { path: "/recommend", component: Recommend },
       { path: "/Star", component: Star }
     ]
-  }
+  },
+  {path :'/details', component: Details},
+  {path:'/login',component:Login }
 ];
 
 const router = new VueRouter({
